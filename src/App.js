@@ -16,8 +16,8 @@ function App() {
             <Route path="/skarzold">
               <User name="Skarzold" age="24" isLoggedIn={true} />
             </Route>
-            <Route path="/becca">
-              <User name="Becca" age="28" isLoggedIn={true} />
+            <Route path="/helya">
+              <User name="Helya" age="2" isLoggedIn={true} />
             </Route>
             <Route path="/">
               <Dummy />

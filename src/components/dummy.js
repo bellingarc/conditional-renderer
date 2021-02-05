@@ -14,10 +14,15 @@ class Dummy extends React.Component {
       <>
         <h1>Hello {(isLoggedIn) ? 'USER!!' : 'Guest'}</h1>
         <button
+          className='login-button' 
           onClick={() => this.setState({ isLoggedIn: !isLoggedIn })}>
           {(isLoggedIn) ? 'LOGOUT' : 'Sign In'}</button>
-        <Link className="App-link" to="/skarzold">Skarzold</Link>
-        <Link className="App-link" to="/becca">Becca</Link>
+        <Link 
+        className="App-link" 
+        to="/skarzold">Skarzold</Link>
+        <Link 
+        className="App-link"
+        to="/helya">Helya</Link>
       </>
     )
   }
